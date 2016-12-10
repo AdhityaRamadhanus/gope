@@ -1,7 +1,6 @@
 package gofp
 
 import (
-	"log"
 	"testing"
 )
 
@@ -15,7 +14,6 @@ func TestReduce(t *testing.T) {
 		arr2[i] = v
 	}
 	result := Reduce(reducer1, arr2, 0)
-	log.Println(result)
 	if result != 15 {
 		t.Error("Reduced array should return 15")
 	}
