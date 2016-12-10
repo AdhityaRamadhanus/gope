@@ -1,7 +1,9 @@
 package gofp
 
+// ComposableFunc is composable function that takes an interface{} and produce interface{}
 type ComposableFunc func(x interface{}) interface{}
 
+// Compose is a function that return a ComposableFunction and takes array of ComposableFUnc
 func Compose(funs ...ComposableFunc) ComposableFunc {
 	lenfun := len(funs)
 	reversedfuns := make([]ComposableFunc, lenfun, lenfun)
