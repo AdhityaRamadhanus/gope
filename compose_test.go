@@ -1,7 +1,6 @@
 package gofp
 
 import (
-	"log"
 	"testing"
 )
 
