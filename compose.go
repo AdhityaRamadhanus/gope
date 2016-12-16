@@ -1,4 +1,4 @@
-package gofp
+package gope
 
 // ComposableFunc is composable function that takes an interface{} and produce interface{}
 type ComposableFunc func(x interface{}) interface{}

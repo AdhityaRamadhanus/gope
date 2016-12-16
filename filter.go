@@ -1,4 +1,4 @@
-package gofp
+package gope
 
 // FilterFunc is function that takes interface{} and produce bool to decide whether an element of an array should be outputed
 type FilterFunc func(xi interface{}) bool
