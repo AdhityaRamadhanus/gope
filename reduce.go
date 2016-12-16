@@ -1,4 +1,4 @@
-package gofp
+package gope
 
 // Reducer is a function that takes accumulated value and current value and produce result
 type Reducer func(acc interface{}, xi interface{}) interface{}

@@ -1,4 +1,4 @@
-package gofp
+package gope
 
 import (
 	"testing"

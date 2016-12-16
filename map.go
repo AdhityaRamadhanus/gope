@@ -1,4 +1,4 @@
-package gofp
+package gope
 
 // Mapper is function that map a value to another value
 type Mapper func(xi interface{}) interface{}
